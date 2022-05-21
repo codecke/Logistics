@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #DFAB4F;
+    --secindary-color: #000000;
+}
+
+
+body {
+    margin: 0;
+}
+
+.header-section {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+        url('../close-up-delivery-person-with-parcels.jpg');
+    background-size: 100%;
+    background-position: center;
+
+
+}
+.main {
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+
+    .abs-logo {
+        width: 10%;
+        cursor: pointer;
+        margin: 0;
+    }
+  
+    .nav {
+        display: inline-block;
+    }
+    
+    .list-items {
+        list-style: none;
+
+    }
+    .list-items li{
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+
+}
