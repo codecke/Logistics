@@ -10,37 +10,43 @@
 </head>
 
 <body>
-    <section class="header-section">
-        <div class="main">
-            <div class="logo">
-                <img src="absl transparent-01.png"  alt="" class="abs-logo">
-            </div>
-            <div class="nav">
-                <ul class="list-items">
-                    <li> <a href="" class="nav-link">Home</a></li>
-                    <li> <a href="" class="nav-link">About us</a></li>
-                    <li> <a href="" class="nav-link">FAQ</a></li>
-                    <li> <a href="" class="nav-link">Buisness</a></li>
-                    <li class="nav-buttton"> <a href="" class="nav-link">Contact us</a></li>
-                </ul>
-            </div>
+    
+    <div class="header-new">
+        <div class="logo-new">
+            <img src="absl transparent-01.png" alt="logo">
         </div>
-        <section class="hero">
-            <div class="text-section">
-                <h2>
-                    The Best and trusted delivery service in Nigeria
-                </h2>
-                <p>Let's help you deliver your valuables</p>
-                <a href="#" class="hero-signup">
-                    Sign up now!
-                </a>
-            </div>
-        </section>
-        <!-- end of the hero class -->
-    </section>
-    <!-- end of the header section -->
+        <div class="nav-new">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
 
-
+    <style>
+        /* style the header-new div and justify the inner divs evenly */
+        .header-new {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .logo-new > img{
+            height: 100px;
+            width: 100px;
+        }
+        .nav-new{
+            min-width: 50vw;
+            width: fit-content;
+        }
+        .nav-new > ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav-new > ul > li{
+            width: fit-content;
+        }
+    </style>
 
     <section class="mid-page">
         <div class="mid-paragraph">
